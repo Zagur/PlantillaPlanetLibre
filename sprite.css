@@ -1,0 +1,45 @@
+
+div#topmenu {
+	height: 30px;
+	left: 94%;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	position: fixed;
+	text-align: left;
+	top: 120px;
+	width: 100%;
+}
+
+/* SPRITE */
+	
+div#topmenu a {
+	background-repeat: no-repeat;
+	display: block;
+	height: 68px;
+	margin-right: 5px;
+	margin-top: 8px;
+	overflow: hidden;
+	text-decoration: none;
+	width: 68px;
+	border-radius: 8px;
+}
+
+a#rss {
+	background-image: url("images/flatsocialicons.png");
+	background-position: -155px -151px;
+}
+
+a#fb {
+	background-image: url("images/flatsocialicons.png");
+	background-position: -155px 0;
+}
+
+a#tw {
+	background-image: url("images/flatsocialicons.png");
+	background-position: -78px 0;
+}
+
+a#gp {
+	background-image: url("images/flatsocialicons.png");
+	background-position: -96px 0;
+}
